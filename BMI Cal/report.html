@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins;
+    background-color: rgb(233, 207, 207);
+}
+        
+        .container1
+{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 3px 3px 5px 5px;
+    border-radius: 15px;
+}
+#head::after
+{
+    content: "";
+    width: 100%;
+    height: 3px;
+    display: block;
+    margin-top: 15px;
+    background-color: antiquewhite;
+}
+
+@media screen and (max-width:992px) {
+    img
+    {
+        width: 750px;
+        height: 650px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    img
+    {
+        width: 450px;
+        height: 550px;
+    }
+}
+@media screen and (max-width:150px) {
+    img
+    {
+        width: 100px;
+        height: 250ppx;
+    }
+    
+}
+    </style>
+
+</head>
+<body>
+   <div class="container1">
+   <img src="1.png" >
+    
+
+   </div>
+    <script src="index.js"></script>
+</body>
+</html>
